@@ -1,7 +1,9 @@
+import { Header } from "@/components/Header";
+
 export default function Home() {
-	return (
-		<div>
-			<p className="text-green-500">Spotify</p>
-		</div>
-	);
+  return (
+    <div className="h-full w-full overflow-hidden overflow-y-auto rounded-lg bg-neutral-900">
+      <Header>Spotify</Header>
+    </div>
+  );
 }
